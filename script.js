@@ -124,7 +124,7 @@ const MEDIA = {
 
   // Contact
   'contact': 'contact.jpg', // S09 — home / site
-  'ph-contact': 'ph-contact.jpg',
+  'ph-contact': 'proj-re-fullhouse.jpg', // finished Ridgeline Estate exterior — swap for 109 Lake Harbor or Wiltshire once photos are in hand
 
   // Blog
   'ph-blog': 'ph-blog.jpg',
@@ -219,12 +219,16 @@ if (form) {
 
 document.querySelectorAll('.js-year').forEach(el => el.textContent = new Date().getFullYear());
 
-/* Header gains a shadow once the page scrolls */
+/* Header gains a shadow once the page scrolls. On the homepage the header stays
+   transparent, overlaid on the full-screen hero, until the hero has scrolled by. */
 const siteHeader = document.querySelector('.header');
+const homeHero = document.querySelector('body.home .hero');
 if (siteHeader) {
-  const setScrolled = () => siteHeader.classList.toggle('scrolled', window.scrollY > 8);
+  const threshold = () => homeHero ? Math.max(homeHero.offsetHeight - 120, 80) : 8;
+  const setScrolled = () => siteHeader.classList.toggle('scrolled', window.scrollY > threshold());
   setScrolled();
   window.addEventListener('scroll', setScrolled, { passive: true });
+  window.addEventListener('resize', setScrolled, { passive: true });
 }
 
 /* Reading progress bar (blog article pages only) */
