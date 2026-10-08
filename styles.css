@@ -114,6 +114,8 @@ section{padding:clamp(72px,9vw,120px) 0}
 /* Transparent nav overlaid on the home hero until the page scrolls */
 body.home .hero{margin-top:-76px}
 body.home .header{background:transparent;border-bottom-color:transparent;box-shadow:none;transition:background .3s ease,border-color .3s ease,box-shadow .3s ease}
+body.home .header .brand-logo{filter:drop-shadow(0 1px 2px rgba(0,0,0,.5)) drop-shadow(0 0 16px rgba(255,255,255,.85)) drop-shadow(0 0 4px rgba(255,255,255,.9))}
+body.home .header.scrolled .brand-logo{filter:none}
 body.home .header .brand-text b,body.home .header .brand-text small{color:#fff}
 body.home .header .nav a:not(.btn){color:#fff}
 body.home .header .nav a:not(.btn)::after{background:#fff}
