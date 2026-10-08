@@ -115,8 +115,6 @@ section{padding:clamp(72px,9vw,120px) 0}
 /* Transparent nav overlaid on the home hero until the page scrolls */
 body.home .hero{margin-top:-76px}
 body.home .header{background:transparent;border-bottom-color:transparent;box-shadow:none;transition:background .3s ease,border-color .3s ease,box-shadow .3s ease}
-body.home .header .brand-logo{filter:drop-shadow(0 1px 2px rgba(0,0,0,.5)) drop-shadow(0 0 16px rgba(255,255,255,.85)) drop-shadow(0 0 4px rgba(255,255,255,.9))}
-body.home .header.scrolled .brand-logo{filter:none}
 body.home .header .brand-text b,body.home .header .brand-text small{color:#fff}
 body.home .header .nav a:not(.btn){color:#fff}
 body.home .header .nav a:not(.btn)::after{background:#fff}
@@ -322,10 +320,6 @@ textarea{resize:vertical;min-height:110px}
 /* Footer */
 .footer{background:#0e1526;color:#a9b8b0;padding:64px 0 34px;font-size:.92rem}
 .footer .top{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12)}
-.social-links{display:flex;gap:10px;margin-top:18px}
-.social-links a{width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;transition:background .2s,border-color .2s,transform .2s}
-.social-links a:hover{background:var(--copper);border-color:var(--copper);transform:translateY(-2px)}
-.social-links svg{width:17px;height:17px;fill:#e6ede8}
 .footer .brand-text b{color:#fff}
 .footer .brand-text small{color:#a9b8b0}
 .footer h4{margin:0 0 16px;font:600 .75rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#fff}
