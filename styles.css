@@ -161,8 +161,8 @@ body.home .header.scrolled .menu-btn span{background:var(--ink)}
 
 /* Editorial showcase blocks — full-bleed photo beside centered copy, one typographic voice,
    no cards or badges. Used to break up the homepage the way a photo-essay does. */
-.showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center}
-.showcase .media{border-radius:0;aspect-ratio:2/3;height:auto;box-shadow:none}
+.showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1160px;margin-inline:auto}
+.showcase .media{border-radius:0;aspect-ratio:4/5;height:auto;box-shadow:none}
 .showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px);height:100%;align-self:stretch}
 .showcase .copy-inner{max-width:46ch;text-align:center}
 .showcase .eyebrow{display:block;text-align:center}
@@ -174,15 +174,15 @@ body.home .header.scrolled .menu-btn span{background:var(--ink)}
 .showcase.reverse>*{direction:ltr}
 
 /* Statement band — a single full-bleed photo beside a short, large, tracked phrase */
-.statement{display:grid;grid-template-columns:1fr 1fr;align-items:center}
-.statement .media{border-radius:0;aspect-ratio:2/3;height:auto;box-shadow:none}
+.statement{display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1160px;margin-inline:auto}
+.statement .media{border-radius:0;aspect-ratio:4/5;height:auto;box-shadow:none}
 .statement .words{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--sand);height:100%;align-self:stretch}
 .statement .words span{font:400 clamp(1.5rem,2.6vw,2.2rem)/1 var(--serif);letter-spacing:.05em;text-transform:uppercase;color:var(--ink)}
 .statement.reverse{direction:rtl}
 .statement.reverse>*{direction:ltr}
 
 /* Testimonial showcase — one quote, one photo, no card chrome */
-.testimonial-showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.testimonial-showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1160px;margin-inline:auto}
 .testimonial-showcase .media{border-radius:0;aspect-ratio:3/2;height:auto;box-shadow:none}
 .testimonial-showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px);background:var(--stone);height:100%;align-self:stretch}
 .testimonial-showcase .copy-inner{max-width:46ch;text-align:center}
