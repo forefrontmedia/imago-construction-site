@@ -161,9 +161,9 @@ body.home .header.scrolled .menu-btn span{background:var(--ink)}
 
 /* Editorial showcase blocks — full-bleed photo beside centered copy, one typographic voice,
    no cards or badges. Used to break up the homepage the way a photo-essay does. */
-.showcase{display:grid;grid-template-columns:1fr 1fr;min-height:clamp(420px,52vw,620px)}
-.showcase .media{border-radius:0;aspect-ratio:auto;height:100%;box-shadow:none}
-.showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px)}
+.showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.showcase .media{border-radius:0;aspect-ratio:2/3;height:auto;box-shadow:none}
+.showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px);height:100%;align-self:stretch}
 .showcase .copy-inner{max-width:46ch;text-align:center}
 .showcase .eyebrow{display:block;text-align:center}
 .showcase h2{margin-bottom:22px}
@@ -174,17 +174,17 @@ body.home .header.scrolled .menu-btn span{background:var(--ink)}
 .showcase.reverse>*{direction:ltr}
 
 /* Statement band — a single full-bleed photo beside a short, large, tracked phrase */
-.statement{display:grid;grid-template-columns:1fr 1fr;min-height:clamp(380px,46vw,560px)}
-.statement .media{border-radius:0;aspect-ratio:auto;height:100%;box-shadow:none}
-.statement .words{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--sand)}
+.statement{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.statement .media{border-radius:0;aspect-ratio:2/3;height:auto;box-shadow:none}
+.statement .words{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--sand);height:100%;align-self:stretch}
 .statement .words span{font:400 clamp(1.5rem,2.6vw,2.2rem)/1 var(--serif);letter-spacing:.05em;text-transform:uppercase;color:var(--ink)}
 .statement.reverse{direction:rtl}
 .statement.reverse>*{direction:ltr}
 
 /* Testimonial showcase — one quote, one photo, no card chrome */
-.testimonial-showcase{display:grid;grid-template-columns:1fr 1fr;min-height:clamp(420px,50vw,580px)}
-.testimonial-showcase .media{border-radius:0;aspect-ratio:auto;height:100%;box-shadow:none}
-.testimonial-showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px);background:var(--stone)}
+.testimonial-showcase{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.testimonial-showcase .media{border-radius:0;aspect-ratio:3/2;height:auto;box-shadow:none}
+.testimonial-showcase .copy{display:flex;align-items:center;justify-content:center;padding:clamp(40px,6vw,96px);background:var(--stone);height:100%;align-self:stretch}
 .testimonial-showcase .copy-inner{max-width:46ch;text-align:center}
 .testimonial-showcase blockquote{margin:0 0 22px;font:italic 400 1.35rem/1.6 var(--serif);color:var(--ink)}
 .testimonial-showcase cite{font-style:normal;font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -485,8 +485,6 @@ textarea{resize:vertical;min-height:110px}
   .nav a::after{display:none}
   .nav .btn{margin-top:16px;justify-content:center;border-bottom:0}
   .split,.perf-grid,.area-row,.contact-grid,.showcase,.statement,.testimonial-showcase{grid-template-columns:1fr}
-  .showcase,.statement,.testimonial-showcase{min-height:0}
-  .showcase .media,.statement .media,.testimonial-showcase .media{aspect-ratio:4/3}
   .split .media{aspect-ratio:4/3.4}
   .work-grid,.q-grid,.blog-grid{grid-template-columns:1fr 1fr}
   .topbar .area-text{display:none}
