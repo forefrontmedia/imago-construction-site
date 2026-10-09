@@ -161,6 +161,34 @@ const MEDIA = {
   'proj-sg-libraryroom': 'proj-sg-libraryroom.jpg',
   'proj-sg-shower2': 'proj-sg-shower2.jpg',
 
+  // Lake Harbor Residence (109 Lake Harbor Dr) — finished, no video
+  'proj-lh-cover': 'proj-lh-hero.jpg',
+  'proj-lh-hero': 'proj-lh-hero.jpg',
+  'proj-lh-entry': 'proj-lh-entry.jpg',
+  'proj-lh-foyer': 'proj-lh-foyer.jpg',
+  'proj-lh-greatroom': 'proj-lh-greatroom.jpg',
+  'proj-lh-greatroom2': 'proj-lh-greatroom2.jpg',
+  'proj-lh-greatroom3': 'proj-lh-greatroom3.jpg',
+  'proj-lh-fireplace': 'proj-lh-fireplace.jpg',
+  'proj-lh-dining': 'proj-lh-dining.jpg',
+  'proj-lh-kitchen': 'proj-lh-kitchen.jpg',
+  'proj-lh-kitchen2': 'proj-lh-kitchen2.jpg',
+  'proj-lh-kitchen3': 'proj-lh-kitchen3.jpg',
+  'proj-lh-kitchen4': 'proj-lh-kitchen4.jpg',
+  'proj-lh-kitchen5': 'proj-lh-kitchen5.jpg',
+  'proj-lh-primarybedroom': 'proj-lh-primarybedroom.jpg',
+  'proj-lh-bedroom': 'proj-lh-bedroom.jpg',
+  'proj-lh-vanity': 'proj-lh-vanity.jpg',
+  'proj-lh-vanity2': 'proj-lh-vanity2.jpg',
+  'proj-lh-tub': 'proj-lh-tub.jpg',
+  'proj-lh-powder': 'proj-lh-powder.jpg',
+  'proj-lh-mudroom': 'proj-lh-mudroom.jpg',
+  'proj-lh-bonus': 'proj-lh-bonus.jpg',
+  'proj-lh-bonus2': 'proj-lh-bonus2.jpg',
+  'proj-lh-patio': 'proj-lh-patio.jpg',
+  'proj-lh-patio2': 'proj-lh-patio2.jpg',
+  'proj-lh-framing': 'proj-lh-framing.jpg',
+
   // About
   'ethan-headshot': 'ethan-headshot.jpg', // S08 — real headshot
   'ph-about': 'ethan-headshot.jpg',       // using the headshot until an on-site photo of Ethan exists
