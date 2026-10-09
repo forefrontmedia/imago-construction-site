@@ -84,6 +84,7 @@ const MEDIA = {
   'proj-re-vanity': 'proj-re-vanity.jpg',
   'proj-re-vanity2': 'proj-re-vanity2.jpg',
   'proj-re-vanitydetail': 'proj-re-vanitydetail.jpg',
+  'proj-re-bath': 'proj-re-bath.jpg',
   'proj-re-closet': 'proj-re-closet.jpg',
   'proj-re-closetbench': 'proj-re-closetbench.jpg',
   'proj-re-gym': 'proj-re-gym.jpg',
