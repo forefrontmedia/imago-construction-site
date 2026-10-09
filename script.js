@@ -20,6 +20,7 @@ const MEDIA = {
   'svc-guidance': 'svc-guidance.jpg', // S06 — reviewing plans together
   'performance': 'performance.jpg',  // S07 — building science: roof truss framing
   'ph-services': 'ph-services.jpg',  // banner — build in progress
+  'testimonial-doug': 'testimonial-doug-portico.jpg', // homepage testimonial — entry portico photo supplied by client
 
   // Our Work — homepage teaser
   'p1': 'p1.jpg', 'p2': 'p2.jpg', 'p3': 'p3.jpg',
