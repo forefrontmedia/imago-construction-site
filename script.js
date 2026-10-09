@@ -22,6 +22,10 @@ const MEDIA = {
   'ph-services': 'ph-services.jpg',  // banner — build in progress
   'testimonial-doug': 'testimonial-doug-portico.jpg', // homepage testimonial — entry portico photo supplied by client
 
+  // Why Choose Imago
+  'ph-why-choose': 'home-hero-poster.jpg', // banner — reuses homepage hero still
+  'why-owner-led': 'ethan-headshot.jpg', // Ethan, reused from homepage "who we are" portrait
+
   // Our Work — homepage teaser
   'p1': 'p1.jpg', 'p2': 'p2.jpg', 'p3': 'p3.jpg',
   'ph-work': 'ph-work.jpg',
