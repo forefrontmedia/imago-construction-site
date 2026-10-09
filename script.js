@@ -118,6 +118,29 @@ const MEDIA = {
   'proj-lb-lumberhoist': 'proj-lb-lumberhoist.jpg',
   'proj-lb-hooksilhouette': 'proj-lb-hooksilhouette.jpg',
 
+  // Our Work — Stonegate Ridge project gallery (in progress · framing complete, finishes underway)
+  'proj-sg-cover': 'proj-sg-aerial2.jpg',
+  'proj-sg-aerial1': 'proj-sg-aerial1.jpg',
+  'proj-sg-aerial2': 'proj-sg-aerial2.jpg',
+  'proj-sg-roofline': 'proj-sg-roofline.jpg',
+  'proj-sg-gables': 'proj-sg-gables.jpg',
+  'proj-sg-siding': 'proj-sg-siding.jpg',
+  'proj-sg-porchcolumns': 'proj-sg-porchcolumns.jpg',
+  'proj-sg-porchceiling': 'proj-sg-porchceiling.jpg',
+  'proj-sg-balcony': 'proj-sg-balcony.jpg',
+  'proj-sg-fireplace': 'proj-sg-fireplace.jpg',
+  'proj-sg-greatroom': 'proj-sg-greatroom.jpg',
+  'proj-sg-wainscoting': 'proj-sg-wainscoting.jpg',
+  'proj-sg-wainscotingdetail': 'proj-sg-wainscotingdetail.jpg',
+  'proj-sg-rangehood': 'proj-sg-rangehood.jpg',
+  'proj-sg-rangehood2': 'proj-sg-rangehood2.jpg',
+  'proj-sg-builtin': 'proj-sg-builtin.jpg',
+  'proj-sg-backsplash': 'proj-sg-backsplash.jpg',
+  'proj-sg-backsplashdetail': 'proj-sg-backsplashdetail.jpg',
+  'proj-sg-counteredge': 'proj-sg-counteredge.jpg',
+  'proj-sg-cabinetry': 'proj-sg-cabinetry.jpg',
+  'proj-sg-countercorner': 'proj-sg-countercorner.jpg',
+
   // About
   'ethan-headshot': 'ethan-headshot.jpg', // S08 — real headshot
   'ph-about': 'ethan-headshot.jpg',       // using the headshot until an on-site photo of Ethan exists
