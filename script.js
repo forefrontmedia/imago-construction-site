@@ -124,7 +124,7 @@ const MEDIA = {
 
   // Contact
   'contact': 'contact.jpg', // S09 — home / site
-  'ph-contact': 'proj-re-fullhouse.jpg', // finished Ridgeline Estate exterior — swap for 109 Lake Harbor or Wiltshire once photos are in hand
+  'ph-contact': 'ph-contact-109lakeharbor.jpg', // 109 Lake Harbor Dr — supplied by client
 
   // Blog
   'ph-blog': 'ph-blog.jpg',
